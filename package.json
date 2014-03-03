@@ -1,0 +1,25 @@
+{
+  "name": "cpu-bound-examples",
+  "description": "examples for cpu bound",
+  "version": "0.0.1",
+  "author": {
+    "name": "wuhaixing",
+    "email": "wuhaixing@gmail.com",
+    "url": "http://gist.github.com/wuhaixing"
+  },
+  "license": {
+    "type": "GPL2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/wuhaixing/cpubound.git"
+  },
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
+  },
+  "dependencies": {
+    "threads_a_gogo": "0.1.x",
+    "underscore": "1.3.3"
+  }
+}
