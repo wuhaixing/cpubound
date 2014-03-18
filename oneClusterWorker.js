@@ -6,9 +6,7 @@ function fibo (n) {
 var cluster= require('cluster');
 
 if (cluster.isMaster) {
-  for (i = 0; i < 1; i++) {
     cluster.fork();
-  }
 } else {
     (function fiboLoop () {
 	    process.stdout.write(fibo(40).toString());
