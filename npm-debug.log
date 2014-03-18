@@ -1,0 +1,478 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/wukaixing/nvm/v0.11.9/bin/node',
+1 verbose cli   '/Users/wukaixing/nvm/v0.11.9/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@1.3.15
+3 info using node@v0.11.9
+4 warn package.json cpu-bound-examples@0.0.1 No README data
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/Users/wukaixing/GitHub/cpubound',
+6 verbose install   [ 'threads_a_gogo', 'underscore', 'nimble' ] ]
+7 info preinstall cpu-bound-examples@0.0.1
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'threads_a_gogo@latest', null ]
+10 verbose cache add name=undefined spec="threads_a_gogo@latest" args=["threads_a_gogo@latest",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'threads_a_gogo@latest',
+11 verbose parsed url   path: 'threads_a_gogo@latest',
+11 verbose parsed url   href: 'threads_a_gogo@latest' }
+12 verbose cache add name="threads_a_gogo" spec="latest" args=["threads_a_gogo","latest"]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'latest',
+13 verbose parsed url   path: 'latest',
+13 verbose parsed url   href: 'latest' }
+14 verbose addNamed [ 'threads_a_gogo', 'latest' ]
+15 verbose addNamed [ null, null ]
+16 verbose cache add [ 'underscore@latest', null ]
+17 verbose cache add name=undefined spec="underscore@latest" args=["underscore@latest",null]
+18 verbose parsed url { protocol: null,
+18 verbose parsed url   slashes: null,
+18 verbose parsed url   auth: null,
+18 verbose parsed url   host: null,
+18 verbose parsed url   port: null,
+18 verbose parsed url   hostname: null,
+18 verbose parsed url   hash: null,
+18 verbose parsed url   search: null,
+18 verbose parsed url   query: null,
+18 verbose parsed url   pathname: 'underscore@latest',
+18 verbose parsed url   path: 'underscore@latest',
+18 verbose parsed url   href: 'underscore@latest' }
+19 verbose cache add name="underscore" spec="latest" args=["underscore","latest"]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: 'latest',
+20 verbose parsed url   path: 'latest',
+20 verbose parsed url   href: 'latest' }
+21 verbose addNamed [ 'underscore', 'latest' ]
+22 verbose addNamed [ null, null ]
+23 silly lockFile c98f5ea1-threads-a-gogo-latest threads_a_gogo@latest
+24 verbose lock threads_a_gogo@latest /Users/wukaixing/.npm/c98f5ea1-threads-a-gogo-latest.lock
+25 silly lockFile 546e1155-underscore-latest underscore@latest
+26 verbose lock underscore@latest /Users/wukaixing/.npm/546e1155-underscore-latest.lock
+27 verbose cache add [ 'nimble@latest', null ]
+28 verbose cache add name=undefined spec="nimble@latest" args=["nimble@latest",null]
+29 verbose parsed url { protocol: null,
+29 verbose parsed url   slashes: null,
+29 verbose parsed url   auth: null,
+29 verbose parsed url   host: null,
+29 verbose parsed url   port: null,
+29 verbose parsed url   hostname: null,
+29 verbose parsed url   hash: null,
+29 verbose parsed url   search: null,
+29 verbose parsed url   query: null,
+29 verbose parsed url   pathname: 'nimble@latest',
+29 verbose parsed url   path: 'nimble@latest',
+29 verbose parsed url   href: 'nimble@latest' }
+30 verbose cache add name="nimble" spec="latest" args=["nimble","latest"]
+31 verbose parsed url { protocol: null,
+31 verbose parsed url   slashes: null,
+31 verbose parsed url   auth: null,
+31 verbose parsed url   host: null,
+31 verbose parsed url   port: null,
+31 verbose parsed url   hostname: null,
+31 verbose parsed url   hash: null,
+31 verbose parsed url   search: null,
+31 verbose parsed url   query: null,
+31 verbose parsed url   pathname: 'latest',
+31 verbose parsed url   path: 'latest',
+31 verbose parsed url   href: 'latest' }
+32 verbose addNamed [ 'nimble', 'latest' ]
+33 verbose addNamed [ null, null ]
+34 silly lockFile bf74e25f-nimble-latest nimble@latest
+35 verbose lock nimble@latest /Users/wukaixing/.npm/bf74e25f-nimble-latest.lock
+36 info addNameTag [ 'threads_a_gogo', 'latest' ]
+37 info addNameTag [ 'underscore', 'latest' ]
+38 info addNameTag [ 'nimble', 'latest' ]
+39 verbose url raw threads_a_gogo
+40 verbose url resolving [ 'https://registry.npmjs.org/', './threads_a_gogo' ]
+41 verbose url resolved https://registry.npmjs.org/threads_a_gogo
+42 info trying registry request attempt 1 at 21:46:09
+43 verbose etag "7BLN8A7S22DY38A5OKWBPCHF9"
+44 http GET https://registry.npmjs.org/threads_a_gogo
+45 verbose url raw underscore
+46 verbose url resolving [ 'https://registry.npmjs.org/', './underscore' ]
+47 verbose url resolved https://registry.npmjs.org/underscore
+48 info trying registry request attempt 1 at 21:46:09
+49 verbose etag "5T35J8S00NSJAELNXQD4OGA6N"
+50 http GET https://registry.npmjs.org/underscore
+51 verbose url raw nimble
+52 verbose url resolving [ 'https://registry.npmjs.org/', './nimble' ]
+53 verbose url resolved https://registry.npmjs.org/nimble
+54 info trying registry request attempt 1 at 21:46:09
+55 verbose etag "63HNRTLL8W8P4RBWNPM32SDZI"
+56 http GET https://registry.npmjs.org/nimble
+57 http 304 https://registry.npmjs.org/threads_a_gogo
+58 silly registry.get cb [ 304,
+58 silly registry.get   { date: 'Mon, 17 Mar 2014 13:46:15 GMT',
+58 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+58 silly registry.get     etag: '"7BLN8A7S22DY38A5OKWBPCHF9"',
+58 silly registry.get     'content-length': '0',
+58 silly registry.get     'accept-ranges': 'bytes',
+58 silly registry.get     via: '1.1 varnish',
+58 silly registry.get     'cache-control': 'max-age=1',
+58 silly registry.get     'x-served-by': 'cache-v43-ASH, cache-ty68-TYO',
+58 silly registry.get     'x-cache': 'MISS, MISS',
+58 silly registry.get     'x-cache-hits': '0, 0',
+58 silly registry.get     'x-timer': 'S1395063975.097962856,VS0,VS43,VE56,VE188',
+58 silly registry.get     connection: 'close' } ]
+59 verbose etag threads_a_gogo from cache
+60 verbose addNamed [ 'threads_a_gogo', '0.1.5' ]
+61 verbose addNamed [ '0.1.5', '0.1.5' ]
+62 silly lockFile 1e8cf05e-threads-a-gogo-0-1-5 threads_a_gogo@0.1.5
+63 verbose lock threads_a_gogo@0.1.5 /Users/wukaixing/.npm/1e8cf05e-threads-a-gogo-0-1-5.lock
+64 silly lockFile 1e8cf05e-threads-a-gogo-0-1-5 threads_a_gogo@0.1.5
+65 silly lockFile 1e8cf05e-threads-a-gogo-0-1-5 threads_a_gogo@0.1.5
+66 silly lockFile c98f5ea1-threads-a-gogo-latest threads_a_gogo@latest
+67 silly lockFile c98f5ea1-threads-a-gogo-latest threads_a_gogo@latest
+68 http 200 https://registry.npmjs.org/underscore
+69 silly registry.get cb [ 200,
+69 silly registry.get   { date: 'Mon, 17 Mar 2014 13:46:15 GMT',
+69 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+69 silly registry.get     etag: '"CYPF3RZ8DQYG0KP9F4OREPRW6"',
+69 silly registry.get     'content-type': 'application/json',
+69 silly registry.get     'accept-ranges': 'bytes',
+69 silly registry.get     via: '1.1 varnish',
+69 silly registry.get     'cache-control': 'max-age=1',
+69 silly registry.get     'content-length': '29635',
+69 silly registry.get     'x-served-by': 'cache-v36-ASH, cache-ty66-TYO',
+69 silly registry.get     'x-cache': 'MISS, MISS',
+69 silly registry.get     'x-cache-hits': '0, 0',
+69 silly registry.get     'x-timer': 'S1395063975.098940134,VS0,VS-864,VE-752,VE282',
+69 silly registry.get     vary: 'Accept',
+69 silly registry.get     connection: 'close' } ]
+70 verbose addNamed [ 'underscore', '1.6.0' ]
+71 verbose addNamed [ '1.6.0', '1.6.0' ]
+72 silly lockFile 96960ed1-underscore-1-6-0 underscore@1.6.0
+73 verbose lock underscore@1.6.0 /Users/wukaixing/.npm/96960ed1-underscore-1-6-0.lock
+74 silly lockFile a02bf4de--underscore-underscore-1-6-0-tgz https://registry.npmjs.org/underscore/-/underscore-1.6.0.tgz
+75 verbose lock https://registry.npmjs.org/underscore/-/underscore-1.6.0.tgz /Users/wukaixing/.npm/a02bf4de--underscore-underscore-1-6-0-tgz.lock
+76 verbose addRemoteTarball [ 'https://registry.npmjs.org/underscore/-/underscore-1.6.0.tgz',
+76 verbose addRemoteTarball   '8b38b10cacdef63337b8b24e4ff86d45aea529a8' ]
+77 info retry fetch attempt 1 at 21:46:15
+78 verbose fetch to= /var/folders/jm/5r7_b1jd5rx8hxf65vc26rd80000gn/T/npm-4021-40rLmsjS/1395063975584-0.7283403698820621/tmp.tgz
+79 http GET https://registry.npmjs.org/underscore/-/underscore-1.6.0.tgz
+80 http 200 https://registry.npmjs.org/underscore/-/underscore-1.6.0.tgz
+81 verbose tar unpack /var/folders/jm/5r7_b1jd5rx8hxf65vc26rd80000gn/T/npm-4021-40rLmsjS/1395063975584-0.7283403698820621/tmp.tgz
+82 silly lockFile f9ae4d82-75584-0-7283403698820621-package tar:///var/folders/jm/5r7_b1jd5rx8hxf65vc26rd80000gn/T/npm-4021-40rLmsjS/1395063975584-0.7283403698820621/package
+83 verbose lock tar:///var/folders/jm/5r7_b1jd5rx8hxf65vc26rd80000gn/T/npm-4021-40rLmsjS/1395063975584-0.7283403698820621/package /Users/wukaixing/.npm/f9ae4d82-75584-0-7283403698820621-package.lock
+84 silly lockFile 92680763-75584-0-7283403698820621-tmp-tgz tar:///var/folders/jm/5r7_b1jd5rx8hxf65vc26rd80000gn/T/npm-4021-40rLmsjS/1395063975584-0.7283403698820621/tmp.tgz
+85 verbose lock tar:///var/folders/jm/5r7_b1jd5rx8hxf65vc26rd80000gn/T/npm-4021-40rLmsjS/1395063975584-0.7283403698820621/tmp.tgz /Users/wukaixing/.npm/92680763-75584-0-7283403698820621-tmp-tgz.lock
+86 silly gunzTarPerm modes [ '755', '644' ]
+87 silly gunzTarPerm extractEntry package.json
+88 silly gunzTarPerm extractEntry README.md
+89 silly gunzTarPerm extractEntry LICENSE
+90 silly gunzTarPerm extractEntry underscore-min.js
+91 silly gunzTarPerm extractEntry underscore.js
+92 silly lockFile f9ae4d82-75584-0-7283403698820621-package tar:///var/folders/jm/5r7_b1jd5rx8hxf65vc26rd80000gn/T/npm-4021-40rLmsjS/1395063975584-0.7283403698820621/package
+93 silly lockFile f9ae4d82-75584-0-7283403698820621-package tar:///var/folders/jm/5r7_b1jd5rx8hxf65vc26rd80000gn/T/npm-4021-40rLmsjS/1395063975584-0.7283403698820621/package
+94 silly lockFile 92680763-75584-0-7283403698820621-tmp-tgz tar:///var/folders/jm/5r7_b1jd5rx8hxf65vc26rd80000gn/T/npm-4021-40rLmsjS/1395063975584-0.7283403698820621/tmp.tgz
+95 silly lockFile 92680763-75584-0-7283403698820621-tmp-tgz tar:///var/folders/jm/5r7_b1jd5rx8hxf65vc26rd80000gn/T/npm-4021-40rLmsjS/1395063975584-0.7283403698820621/tmp.tgz
+96 verbose tar pack [ '/Users/wukaixing/.npm/underscore/1.6.0/package.tgz',
+96 verbose tar pack   '/var/folders/jm/5r7_b1jd5rx8hxf65vc26rd80000gn/T/npm-4021-40rLmsjS/1395063975584-0.7283403698820621/package' ]
+97 verbose tarball /Users/wukaixing/.npm/underscore/1.6.0/package.tgz
+98 verbose folder /var/folders/jm/5r7_b1jd5rx8hxf65vc26rd80000gn/T/npm-4021-40rLmsjS/1395063975584-0.7283403698820621/package
+99 silly lockFile f9ae4d82-75584-0-7283403698820621-package tar:///var/folders/jm/5r7_b1jd5rx8hxf65vc26rd80000gn/T/npm-4021-40rLmsjS/1395063975584-0.7283403698820621/package
+100 verbose lock tar:///var/folders/jm/5r7_b1jd5rx8hxf65vc26rd80000gn/T/npm-4021-40rLmsjS/1395063975584-0.7283403698820621/package /Users/wukaixing/.npm/f9ae4d82-75584-0-7283403698820621-package.lock
+101 silly lockFile 772b4b80-npm-underscore-1-6-0-package-tgz tar:///Users/wukaixing/.npm/underscore/1.6.0/package.tgz
+102 verbose lock tar:///Users/wukaixing/.npm/underscore/1.6.0/package.tgz /Users/wukaixing/.npm/772b4b80-npm-underscore-1-6-0-package-tgz.lock
+103 silly lockFile f9ae4d82-75584-0-7283403698820621-package tar:///var/folders/jm/5r7_b1jd5rx8hxf65vc26rd80000gn/T/npm-4021-40rLmsjS/1395063975584-0.7283403698820621/package
+104 silly lockFile f9ae4d82-75584-0-7283403698820621-package tar:///var/folders/jm/5r7_b1jd5rx8hxf65vc26rd80000gn/T/npm-4021-40rLmsjS/1395063975584-0.7283403698820621/package
+105 silly lockFile 772b4b80-npm-underscore-1-6-0-package-tgz tar:///Users/wukaixing/.npm/underscore/1.6.0/package.tgz
+106 silly lockFile 772b4b80-npm-underscore-1-6-0-package-tgz tar:///Users/wukaixing/.npm/underscore/1.6.0/package.tgz
+107 silly lockFile ea8cc1ce-ing-npm-underscore-1-6-0-package /Users/wukaixing/.npm/underscore/1.6.0/package
+108 verbose lock /Users/wukaixing/.npm/underscore/1.6.0/package /Users/wukaixing/.npm/ea8cc1ce-ing-npm-underscore-1-6-0-package.lock
+109 silly lockFile ea8cc1ce-ing-npm-underscore-1-6-0-package /Users/wukaixing/.npm/underscore/1.6.0/package
+110 silly lockFile ea8cc1ce-ing-npm-underscore-1-6-0-package /Users/wukaixing/.npm/underscore/1.6.0/package
+111 verbose tar unpack /Users/wukaixing/.npm/underscore/1.6.0/package.tgz
+112 silly lockFile 0c9ea19b-ing-npm-underscore-1-6-0-package tar:///Users/wukaixing/.npm/underscore/1.6.0/package
+113 verbose lock tar:///Users/wukaixing/.npm/underscore/1.6.0/package /Users/wukaixing/.npm/0c9ea19b-ing-npm-underscore-1-6-0-package.lock
+114 silly lockFile 772b4b80-npm-underscore-1-6-0-package-tgz tar:///Users/wukaixing/.npm/underscore/1.6.0/package.tgz
+115 verbose lock tar:///Users/wukaixing/.npm/underscore/1.6.0/package.tgz /Users/wukaixing/.npm/772b4b80-npm-underscore-1-6-0-package-tgz.lock
+116 silly gunzTarPerm modes [ '755', '644' ]
+117 silly gunzTarPerm extractEntry package.json
+118 silly gunzTarPerm extractEntry README.md
+119 silly gunzTarPerm extractEntry LICENSE
+120 silly gunzTarPerm extractEntry underscore-min.js
+121 silly gunzTarPerm extractEntry underscore.js
+122 silly lockFile 0c9ea19b-ing-npm-underscore-1-6-0-package tar:///Users/wukaixing/.npm/underscore/1.6.0/package
+123 silly lockFile 0c9ea19b-ing-npm-underscore-1-6-0-package tar:///Users/wukaixing/.npm/underscore/1.6.0/package
+124 silly lockFile 772b4b80-npm-underscore-1-6-0-package-tgz tar:///Users/wukaixing/.npm/underscore/1.6.0/package.tgz
+125 silly lockFile 772b4b80-npm-underscore-1-6-0-package-tgz tar:///Users/wukaixing/.npm/underscore/1.6.0/package.tgz
+126 verbose chmod /Users/wukaixing/.npm/underscore/1.6.0/package.tgz 644
+127 verbose chown /Users/wukaixing/.npm/underscore/1.6.0/package.tgz [ 501, 20 ]
+128 silly lockFile a02bf4de--underscore-underscore-1-6-0-tgz https://registry.npmjs.org/underscore/-/underscore-1.6.0.tgz
+129 silly lockFile a02bf4de--underscore-underscore-1-6-0-tgz https://registry.npmjs.org/underscore/-/underscore-1.6.0.tgz
+130 silly lockFile 96960ed1-underscore-1-6-0 underscore@1.6.0
+131 silly lockFile 96960ed1-underscore-1-6-0 underscore@1.6.0
+132 silly lockFile 546e1155-underscore-latest underscore@latest
+133 silly lockFile 546e1155-underscore-latest underscore@latest
+134 http 304 https://registry.npmjs.org/nimble
+135 silly registry.get cb [ 304,
+135 silly registry.get   { date: 'Mon, 17 Mar 2014 13:46:17 GMT',
+135 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+135 silly registry.get     etag: '"63HNRTLL8W8P4RBWNPM32SDZI"',
+135 silly registry.get     'content-length': '0',
+135 silly registry.get     'accept-ranges': 'bytes',
+135 silly registry.get     via: '1.1 varnish',
+135 silly registry.get     'cache-control': 'max-age=1',
+135 silly registry.get     'x-served-by': 'cache-v36-ASH, cache-ty67-TYO',
+135 silly registry.get     'x-cache': 'MISS, MISS',
+135 silly registry.get     'x-cache-hits': '0, 0',
+135 silly registry.get     'x-timer': 'S1395063976.993909597,VS0,VS-863,VE-764,VE269',
+135 silly registry.get     connection: 'close' } ]
+136 verbose etag nimble from cache
+137 verbose addNamed [ 'nimble', '0.0.2' ]
+138 verbose addNamed [ '0.0.2', '0.0.2' ]
+139 silly lockFile 3aac6c5f-nimble-0-0-2 nimble@0.0.2
+140 verbose lock nimble@0.0.2 /Users/wukaixing/.npm/3aac6c5f-nimble-0-0-2.lock
+141 silly lockFile 3aac6c5f-nimble-0-0-2 nimble@0.0.2
+142 silly lockFile 3aac6c5f-nimble-0-0-2 nimble@0.0.2
+143 silly lockFile bf74e25f-nimble-latest nimble@latest
+144 silly lockFile bf74e25f-nimble-latest nimble@latest
+145 info already installed nimble@0.0.2
+146 silly resolved [ { name: 'threads_a_gogo',
+146 silly resolved     version: '0.1.5',
+146 silly resolved     main: 'build/release/threads_a_gogo.node',
+146 silly resolved     description: '████ Simple and fast JavaScript threads for Node.js ████',
+146 silly resolved     keywords: [ 'The', 'most', 'awesome', 'project', 'ever', 'a gogo' ],
+146 silly resolved     author:
+146 silly resolved      { name: 'Jorge Chamorro Bieling',
+146 silly resolved        email: 'jorge@jorgechamorro.com' },
+146 silly resolved     homepage: 'https://github.com/xk/node-threads-a-gogo',
+146 silly resolved     bugs:
+146 silly resolved      { url: 'http://github.com/xk/node-threads-a-gogo/issues',
+146 silly resolved        email: 'jorge@jorgechamorro.com' },
+146 silly resolved     repository:
+146 silly resolved      { type: 'git',
+146 silly resolved        url: 'http://github.com/xk/node-threads-a-gogo.git' },
+146 silly resolved     scripts: { install: 'node-waf configure install' },
+146 silly resolved     os: [ 'macos', 'linux', 'darwin' ],
+146 silly resolved     engines: { node: '>=0.5.1' },
+146 silly resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+146 silly resolved     readme: '# Threads A GoGo for Node.js\n\nA native module for Node.js that provides an asynchronous, evented and/or continuation passing style API for moving blocking/longish CPU-bound tasks out of Node\'s event loop to JavaScript threads that run in parallel in the background and that use all the available CPU cores automatically; all from within a single Node process.\n\n## Installing the module\n\nWith [npm](http://npmjs.org/):\n\n    npm install threads_a_gogo\n\nFrom source:\n\n    git clone http://github.com/xk/node-threads-a-gogo.git\n    cd node-threads-a-gogo\n    node-waf configure install\n\nTo include the module in your project:\n\n    var threads_a_gogo= require(\'threads_a_gogo\');\n\n**You need a node with a v8 >= 3.2.4 to run this module. Any node >= 0.5.1 comes with a v8 >= 3.2.4.**\n\nThe module **runs fine, though, in any node >= 0.2.0** as long as you build it with a v8 >= 3.2.4. To do that you simply have to replace /node/deps/v8 with a newer version of v8 and recompile it (node). To get any version of node goto http://nodejs.org/dist/, and for v8 goto http://github.com/v8/v8, click on "branch", select the proper tag (>= 3.2.4), and download the .zip.\n\n## (not so) Quick Intro\n\nAfter the initialization phase of a Node program, whose purpose is to setup listeners and callbacks to be executed in response to events, the next phase, the proper execution of the program, is orchestrated by the event loop whose duty is to [juggle events, listeners and callbacks quickly and without any hiccups nor interruptions that would ruin its performance](http://youtube.com/v/D0uA_NOb0PE?autoplay=1)\n\nBoth the event loop and said listeners and callbacks run sequentially in a single thread of execution, Node\'s main thread. If any of them ever blocks, nothing else will happen for the duration of the block: no more events will be handled, no more callbacks nor listeners nor timeouts nor nextTick()ed functions will have the chance to run and do their job, because they won\'t be called by the blocked event loop, and the program will turn sluggish at best, or appear to be frozen and dead at worst.\n\n**A.-** Here\'s a program that makes Node\'s event loop spin freely and as fast as possible: it simply prints a dot to the console in each turn:\n\n    cat examples/quickIntro_loop.js\n    \n``` javascript\n(function spinForever () {\n  process.stdout.write(".");\n  process.nextTick(spinForever);\n})();\n```\n\n**B.-** Here\'s another program that adds to the one above a fibonacci(35) call in each turn, a CPU-bound task that takes quite a while to complete and that blocks the event loop making it spin slowly and clumsily. The point is simply to show that you can\'t put a job like that in the event loop because Node will stop performing properly when its event loop can\'t spin fast and freely due to a callback/listener/nextTick()ed function that\'s blocking.\n\n    cat examples/quickIntro_blocking.js\n\n``` javascript\nfunction fibo (n) {\n  return n > 1 ? fibo(n - 1) + fibo(n - 2) : 1;\n}\n\n(function fiboLoop () {\n  process.stdout.write(fibo(35).toString());\n  process.nextTick(fiboLoop);\n})();\n\n(function spinForever () {\n  process.stdout.write(".");\n  process.nextTick(spinForever);\n})();\n```\n\n**C.-** The program below uses `threads_a_gogo` to run the fibonacci(35) calls in a background thread, so Node\'s event loop isn\'t blocked at all and can spin freely again at full speed:\n\n    cat examples/quickIntro_oneThread.js\n  \n``` javascript\nfunction fibo (n) {\n  return n > 1 ? fibo(n - 1) + fibo(n - 2) : 1;\n}\n\nfunction cb (err, data) {\n  process.stdout.write(data);\n  this.eval(\'fibo(35)\', cb);\n}\n\nvar thread= require(\'threads_a_gogo\').create();\n\nthread.eval(fibo).eval(\'fibo(35)\', cb);\n\n(function spinForever () {\n  process.stdout.write(".");\n  process.nextTick(spinForever);\n})();\n```\n\n**D.-** This example is almost identical to the one above, only that it creates 5 threads instead of one, each running a fibonacci(35) in parallel and in parallel too with Node\'s event loop that keeps spinning happily at full speed in its own thread:\n\n    cat examples/quickIntro_fiveThreads.js\n  \n``` javascript\nfunction fibo (n) {\n  return n > 1 ? fibo(n - 1) + fibo(n - 2) : 1;\n}\n\nfunction cb (err, data) {\n  process.stdout.write(" ["+ this.id+ "]"+ data);\n  this.eval(\'fibo(35)\', cb);\n}\n\nvar threads_a_gogo= require(\'threads_a_gogo\');\n\nthreads_a_gogo.create().eval(fibo).eval(\'fibo(35)\', cb);\nthreads_a_gogo.create().eval(fibo).eval(\'fibo(35)\', cb);\nthreads_a_gogo.create().eval(fibo).eval(\'fibo(35)\', cb);\nthreads_a_gogo.create().eval(fibo).eval(\'fibo(35)\', cb);\nthreads_a_gogo.create().eval(fibo).eval(\'fibo(35)\', cb);\n\n(function spinForever () {\n  process.stdout.write(".");\n  process.nextTick(spinForever);\n})();\n```\n\n**E.-** The next one asks `threads_a_gogo` to create a pool of 10 background threads, instead of creating them manually one by one:\n\n    cat examples/multiThread.js\n\n``` javascript\nfunction fibo (n) {\n  return n > 1 ? fibo(n - 1) + fibo(n - 2) : 1;\n}\n\nvar numThreads= 10;\nvar threadPool= require(\'threads_a_gogo\').createPool(numThreads).all.eval(fibo);\n\nthreadPool.all.eval(\'fibo(35)\', function cb (err, data) {\n  process.stdout.write(" ["+ this.id+ "]"+ data);\n  this.eval(\'fibo(35)\', cb);\n});\n\n(function spinForever () {\n  process.stdout.write(".");\n  process.nextTick(spinForever);\n})();\n```\n\n**F.-** This is a demo of the `threads_a_gogo` eventEmitter API, using one thread:\n\n    cat examples/quickIntro_oneThreadEvented.js\n\n``` javascript\nvar thread= require(\'threads_a_gogo\').create();\nthread.load(__dirname + \'/quickIntro_evented_childThreadCode.js\');\n\n/*\n  This is the code that\'s .load()ed into the child/background thread:\n  \n  function fibo (n) {\n    return n > 1 ? fibo(n - 1) + fibo(n - 2) : 1;\n  }\n\n  thread.on(\'giveMeTheFibo\', function onGiveMeTheFibo (data) {\n    this.emit(\'theFiboIs\', fibo(+data)); //Emits \'theFiboIs\' in the parent/main thread.\n  });\n  \n*/\n\n//Emit \'giveMeTheFibo\' in the child/background thread.\nthread.emit(\'giveMeTheFibo\', 35);\n\n//Listener for the \'theFiboIs\' events emitted by the child/background thread.\nthread.on(\'theFiboIs\', function cb (data) {\n  process.stdout.write(data);\n  this.emit(\'giveMeTheFibo\', 35);\n});\n\n(function spinForever () {\n  process.stdout.write(".");\n  process.nextTick(spinForever);\n})();\n```\n\n**G.-** This is a demo of the `threads_a_gogo` eventEmitter API, using a pool of threads:\n\n    cat examples/quickIntro_multiThreadEvented.js\n\n``` javascript\nvar numThreads= 10;\nvar threadPool= require(\'threads_a_gogo\').createPool(numThreads);\nthreadPool.load(__dirname + \'/quickIntro_evented_childThreadCode.js\');\n\n/*\n  This is the code that\'s .load()ed into the child/background threads:\n  \n  function fibo (n) {\n    return n > 1 ? fibo(n - 1) + fibo(n - 2) : 1;\n  }\n\n  thread.on(\'giveMeTheFibo\', function onGiveMeTheFibo (data) {\n    this.emit(\'theFiboIs\', fibo(+data)); //Emits \'theFiboIs\' in the parent/main thread.\n  });\n  \n*/\n\n//Emit \'giveMeTheFibo\' in all the child/background threads.\nthreadPool.all.emit(\'giveMeTheFibo\', 35);\n\n//Listener for the \'theFiboIs\' events emitted by the child/background threads.\nthreadPool.on(\'theFiboIs\', function cb (data) {\n  process.stdout.write(" ["+ this.id+ "]"+ data);\n  this.emit(\'giveMeTheFibo\', 35);\n});\n\n(function spinForever () {\n  process.stdout.write(".");\n  process.nextTick(spinForever);\n})();\n```\n\n## More examples\n\nThe `examples` directory contains a few more examples:\n\n* [ex01_basic](https://github.com/xk/node-threads-a-gogo/blob/master/examples/ex01_basic.md): Running a simple function in a thread.\n* [ex02_events](https://github.com/xk/node-threads-a-gogo/blob/master/examples/ex02_events.md): Sending events from a worker thread.\n* [ex03_ping_pong](https://github.com/xk/node-threads-a-gogo/blob/master/examples/ex03_ping_pong.md): Sending events both ways between the main thread and a worker thread.\n* [ex04_main](https://github.com/xk/node-threads-a-gogo/blob/master/examples/ex04_main.md): Loading the worker code from a file.\n* [ex05_pool](https://github.com/xk/node-threads-a-gogo/blob/master/examples/ex05_pool.md): Using the thread pool.\n* [ex06_jason](https://github.com/xk/node-threads-a-gogo/blob/master/examples/ex06_jason.md): Passing complex objects to threads.\n\n## API\n\n### Module API\n``` javascript\nvar threads_a_gogo= require(\'threads_a_gogo\');\n```\n##### .create()\n`threads_a_gogo.create( /* no arguments */ )` -> thread object\n##### .createPool( numThreads )\n`threads_a_gogo.createPool( numberOfThreads )` -> threadPool object\n\n***\n### Thread API\n``` javascript\nvar thread= threads_a_gogo.create();\n```\n##### .id\n`thread.id` -> a sequential thread serial number\n##### .load( absolutePath [, cb] )\n`thread.load( absolutePath [, cb] )` -> reads the file at `absolutePath` and `thread.eval(fileContents, cb)`.\n##### .eval( program [, cb])\n`thread.eval( program [, cb])` -> converts `program.toString()` and eval()s it in the thread\'s global context, and (if provided) returns the completion value to `cb(err, completionValue)`.\n##### .on( eventType, listener )\n`thread.on( eventType, listener )` -> registers the listener `listener(data)` for any events of `eventType` that the thread `thread` may emit.\n##### .once( eventType, listener )\n`thread.once( eventType, listener )` -> like `thread.on()`, but the listener will only be called once.\n##### .removeAllListeners( [eventType] )\n`thread.removeAllListeners( [eventType] )` -> deletes all listeners for all eventTypes. If `eventType` is provided, deletes all listeners only for the event type `eventType`.\n##### .emit( eventType, eventData [, eventData ... ] )\n`thread.emit( eventType, eventData [, eventData ... ] )` -> emit an event of `eventType` with `eventData` inside the thread `thread`. All its arguments are .toString()ed.\n##### .destroy( /* no arguments */ )\n`thread.destroy( /* no arguments */ )` -> destroys the thread.\n\n***\n### Thread pool API\n``` javascript\nthreadPool= threads_a_gogo.createPool( numberOfThreads );\n```\n##### .load( absolutePath [, cb] )\n`threadPool.load( absolutePath [, cb] )` -> `thread.load( absolutePath [, cb] )` in all the pool\'s threads.\n##### .any.eval( program, cb )\n`threadPool.any.eval( program, cb )` -> like `thread.eval()`, but in any of the pool\'s threads.\n##### .any.emit( eventType, eventData [, eventData ... ] )\n`threadPool.any.emit( eventType, eventData [, eventData ... ] )` -> like `thread.emit()` but in any of the pool\'s threads.\n##### .all.eval( program, cb )\n`threadPool.all.eval( program, cb )` -> like `thread.eval()`, but in all the pool\'s threads.\n##### .all.emit( eventType, eventData [, eventData ... ] )\n`threadPool.all.emit( eventType, eventData [, eventData ... ] )` -> like `thread.emit()` but in all the pool\'s threads.\n##### .on( eventType, listener )\n`threadPool.on( eventType, listener )` -> like `thread.on()`, registers listeners for events from any of the threads in the pool.\n##### .totalThreads()\n`threadPool.totalThreads()` -> returns the number of threads in this pool: as supplied in `.createPool( number )`\n##### .idleThreads()\n`threadPool.idleThreads()` -> returns the number of threads in this pool that are currently idle (sleeping)\n##### .pendingJobs()\n`threadPool.pendingJobs()` -> returns the number of jobs pending.\n##### .destroy( [ rudely ] )\n`threadPool.destroy( [ rudely ] )` -> waits until `pendingJobs()` is zero and then destroys the pool. If `rudely` is truthy, then it doesn\'t wait for `pendingJobs === 0`.\n\n***\n### Global thread API\n\nInside every thread .create()d by threads_a_gogo, there\'s a global `thread` object with these properties:\n##### .id\n`thread.id` -> the serial number of this thread\n##### .on( eventType, listener )\n`thread.on( eventType, listener )` -> just like `thread.on()` above.\n##### .once( eventType, listener )\n`thread.once( eventType, listener )` -> just like `thread.once()` above.\n##### .emit( eventType, eventData [, eventData ... ] )\n`thread.emit( eventType, eventData [, eventData ... ] )` -> just like `thread.emit()` above.\n##### .removeAllListeners( [eventType] )\n`thread.removeAllListeners( [eventType] )` -> just like `thread.removeAllListeners()` above.\n##### .nextTick( function )\n`thread.nextTick( function )` -> like `process.nextTick()`, but twice as fast.\n\n***\n### Global puts\n\nInside every thread .create()d by threads_a_gogo, there\'s a global `puts`:\n##### puts(arg1 [, arg2 ...])\n`puts(arg1 [, arg2 ...])` -> .toString()s and prints its arguments to stdout.\n\n## Rationale\n\n[Node.js](http://nodejs.org) is the most [awesome, cute and super-sexy](http://javascriptology.com/threads_a_gogo/sexy.jpg) piece of free, open source software.\n\nIts event loop can spin as fast and smooth as a turbo, and roughly speaking, **the faster it spins, the more power it delivers**. That\'s why [@ryah](http://twitter.com/ryah) took great care to ensure that no -possibly slow- I/O operations could ever block it: a pool of background threads (thanks to [Marc Lehmann\'s libeio library](http://software.schmorp.de/pkg/libeio.html)) handle any blocking I/O calls in the background, in parallel.\n\nIn Node it\'s verboten to write a server like this:\n\n``` javascript\nhttp.createServer(function (req,res) {\n  res.end( fs.readFileSync(path) );\n}).listen(port);\n```\nBecause synchronous I/O calls **block the turbo**, and without proper boost, Node.js begins to stutter and behaves clumsily. To avoid it there\'s the asynchronous version of `.readFile()`, in continuation passing style, that takes a callback:\n\n``` javascript\nfs.readfile(path, function cb (err, data) { /* ... */ });\n```\n\nIt\'s cool, we love it (*), and there\'s hundreds of ad hoc built-in functions like this in Node to help us deal with almost any variety of possibly slow, blocking I/O.\n\n### But what\'s with longish, CPU-bound tasks?\n\nHow do you avoid blocking the event loop, when the task at hand isn\'t I/O bound, and lasts more than a few fractions of a millisecond?\n\n``` javascript\nhttp.createServer(function cb (req,res) {\n  res.end( fibonacci(40) );\n}).listen(port);\n```\n\nYou simply can\'t, because there\'s no way... well, there wasn\'t before `threads_a_gogo`.\n\n### What is Threads A GoGo for Node.js\n\n`threads_a_gogo` provides the asynchronous API for CPU-bound tasks that\'s missing in Node.js. Both in continuation passing style (callbacks), and in event emitter style (event listeners).\n\nThe same API Node uses to delegate a longish I/O task to a background (libeio) thread:\n\n`asyncIOTask(what, cb);`\n\n`threads_a_gogo` uses to delegate a longish CPU task to a background (JavaScript) thread:\n\n`thread.eval(program, cb);`\n\nSo with `threads_a_gogo` you can write:\n\n``` javascript\nhttp.createServer(function (req,res) {\n  thread.eval(\'fibonacci(40)\', function cb (err, data) {\n    res.end(data);\n  });\n}).listen(port);\n```\n\nAnd it won\'t block the event loop because the `fibonacci(40)` will run in parallel in a separate background thread.\n\n\n### Why Threads\n\nThreads (kernel threads) are very interesting creatures. They provide:\n\n1.- Parallelism: All the threads run in parallel. On a single core processor, the CPU is switched rapidly back and forth among the threads providing the illusion that the threads are running in parallel, albeit on a slower CPU than the real one. With 10 compute-bound threads in a process, the threads would appear to be running in parallel, each one on a CPU with 1/10th the speed of the real CPU. On a multi-core processor, threads are truly running in parallel, and get time-sliced when the number of threads exceed the number of cores. So with 12 compute bound threads on a quad-core processor each thread will appear to run at 1/3rd of the nominal core speed.\n\n2.- Fairness: No thread is more important than another, cores and CPU slices are fairly distributed among threads by the OS scheduler.\n\n3.- Threads fully exploit all the available CPU resources in your system. On a loaded system running many tasks in many threads, the more cores there are, the faster the threads will complete. Automatically.\n\n4.- The threads of a process share exactly the same address space, that of the process they belong to. Every thread can access every memory address within the process\' address space. This is a very appropriate setup when the threads are actually part of the same job and are actively and closely cooperating with each other. Passing a reference to a chunk of data via a pointer is many orders of magnitude faster than transferring a copy of the data via IPC.\n\n\n### Why not multiple processes.\n\nThe "can\'t block the event loop" problem is inherent to Node\'s evented model. No matter how many Node processes you have running as a [Node-cluster](http://blog.nodejs.org/2011/10/04/an-easy-way-to-build-scalable-network-programs/), it won\'t solve its issues with CPU-bound tasks.\n\nLaunch a cluster of N Nodes running the example B (`quickIntro_blocking.js`) above, and all you\'ll get is N -instead of one- Nodes with their event loops blocked and showing a sluggish performance.\n',
+146 silly resolved     readmeFilename: 'README.md',
+146 silly resolved     _id: 'threads_a_gogo@0.1.5',
+146 silly resolved     _from: 'threads_a_gogo@latest' },
+146 silly resolved   { name: 'underscore',
+146 silly resolved     description: 'JavaScript\'s functional programming helper library.',
+146 silly resolved     homepage: 'http://underscorejs.org',
+146 silly resolved     keywords: [ 'util', 'functional', 'server', 'client', 'browser' ],
+146 silly resolved     author: { name: 'Jeremy Ashkenas', email: 'jeremy@documentcloud.org' },
+146 silly resolved     repository:
+146 silly resolved      { type: 'git',
+146 silly resolved        url: 'git://github.com/jashkenas/underscore.git' },
+146 silly resolved     main: 'underscore.js',
+146 silly resolved     version: '1.6.0',
+146 silly resolved     devDependencies: { docco: '0.6.x', phantomjs: '1.9.0-1', 'uglify-js': '2.4.x' },
+146 silly resolved     scripts:
+146 silly resolved      { test: 'phantomjs test/vendor/runner.js test/index.html?noglobals=true',
+146 silly resolved        build: 'uglifyjs underscore.js -c "evaluate=false" --comments "/    .*/" -m --source-map underscore-min.map -o underscore-min.js',
+146 silly resolved        doc: 'docco underscore.js' },
+146 silly resolved     licenses: [ [Object] ],
+146 silly resolved     files: [ 'underscore.js', 'underscore-min.js', 'LICENSE' ],
+146 silly resolved     readme: '                       __\n                      /\\ \\                                                         __\n     __  __    ___    \\_\\ \\     __   _ __   ____    ___    ___   _ __    __       /\\_\\    ____\n    /\\ \\/\\ \\ /\' _ `\\  /\'_  \\  /\'__`\\/\\  __\\/ ,__\\  / ___\\ / __`\\/\\  __\\/\'__`\\     \\/\\ \\  /\',__\\\n    \\ \\ \\_\\ \\/\\ \\/\\ \\/\\ \\ \\ \\/\\  __/\\ \\ \\//\\__, `\\/\\ \\__//\\ \\ \\ \\ \\ \\//\\  __/  __  \\ \\ \\/\\__, `\\\n     \\ \\____/\\ \\_\\ \\_\\ \\___,_\\ \\____\\\\ \\_\\\\/\\____/\\ \\____\\ \\____/\\ \\_\\\\ \\____\\/\\_\\ _\\ \\ \\/\\____/\n      \\/___/  \\/_/\\/_/\\/__,_ /\\/____/ \\/_/ \\/___/  \\/____/\\/___/  \\/_/ \\/____/\\/_//\\ \\_\\ \\/___/\n                                                                                  \\ \\____/\n                                                                                   \\/___/\n\nUnderscore.js is a utility-belt library for JavaScript that provides\nsupport for the usual functional suspects (each, map, reduce, filter...)\nwithout extending any core JavaScript objects.\n\nFor Docs, License, Tests, and pre-packed downloads, see:\nhttp://underscorejs.org\n\nUnderscore is an open-sourced component of DocumentCloud:\nhttps://github.com/documentcloud\n\nMany thanks to our contributors:\nhttps://github.com/jashkenas/underscore/contributors\n',
+146 silly resolved     readmeFilename: 'README.md',
+146 silly resolved     bugs: { url: 'https://github.com/jashkenas/underscore/issues' },
+146 silly resolved     _id: 'underscore@1.6.0',
+146 silly resolved     dist: { shasum: 'd2894fe059a85ed418692c6cacaf2efaea1e599f' },
+146 silly resolved     _from: 'underscore@latest',
+146 silly resolved     _resolved: 'https://registry.npmjs.org/underscore/-/underscore-1.6.0.tgz' } ]
+147 info install threads_a_gogo@0.1.5 into /Users/wukaixing/GitHub/cpubound
+148 info install underscore@1.6.0 into /Users/wukaixing/GitHub/cpubound
+149 info installOne threads_a_gogo@0.1.5
+150 info installOne underscore@1.6.0
+151 info /Users/wukaixing/GitHub/cpubound/node_modules/threads_a_gogo unbuild
+152 info /Users/wukaixing/GitHub/cpubound/node_modules/underscore unbuild
+153 info preuninstall underscore@1.3.3
+154 verbose tar unpack /Users/wukaixing/.npm/threads_a_gogo/0.1.5/package.tgz
+155 silly lockFile ea173f16-ound-node-modules-threads-a-gogo tar:///Users/wukaixing/GitHub/cpubound/node_modules/threads_a_gogo
+156 verbose lock tar:///Users/wukaixing/GitHub/cpubound/node_modules/threads_a_gogo /Users/wukaixing/.npm/ea173f16-ound-node-modules-threads-a-gogo.lock
+157 silly lockFile 73f42394-threads-a-gogo-0-1-5-package-tgz tar:///Users/wukaixing/.npm/threads_a_gogo/0.1.5/package.tgz
+158 verbose lock tar:///Users/wukaixing/.npm/threads_a_gogo/0.1.5/package.tgz /Users/wukaixing/.npm/73f42394-threads-a-gogo-0-1-5-package-tgz.lock
+159 info uninstall underscore@1.3.3
+160 verbose true,/Users/wukaixing/GitHub/cpubound/node_modules,/Users/wukaixing/GitHub/cpubound/node_modules unbuild underscore@1.3.3
+161 info postuninstall underscore@1.3.3
+162 silly gunzTarPerm modes [ '755', '644' ]
+163 silly gunzTarPerm extractEntry package.json
+164 silly gunzTarPerm extractEntry .npmignore
+165 silly gunzTarPerm extractEntry README.md
+166 verbose tar unpack /Users/wukaixing/.npm/underscore/1.6.0/package.tgz
+167 silly lockFile 13e248b9-cpubound-node-modules-underscore tar:///Users/wukaixing/GitHub/cpubound/node_modules/underscore
+168 verbose lock tar:///Users/wukaixing/GitHub/cpubound/node_modules/underscore /Users/wukaixing/.npm/13e248b9-cpubound-node-modules-underscore.lock
+169 silly lockFile 772b4b80-npm-underscore-1-6-0-package-tgz tar:///Users/wukaixing/.npm/underscore/1.6.0/package.tgz
+170 verbose lock tar:///Users/wukaixing/.npm/underscore/1.6.0/package.tgz /Users/wukaixing/.npm/772b4b80-npm-underscore-1-6-0-package-tgz.lock
+171 silly gunzTarPerm modes [ '755', '644' ]
+172 silly gunzTarPerm extractEntry LICENSE
+173 silly gunzTarPerm extractEntry package.json
+174 silly gunzTarPerm extractEntry README.md
+175 silly gunzTarPerm extractEntry LICENSE
+176 silly gunzTarPerm extractEntry benchmark/b00_fibonacci_server_no_threads.js
+177 silly gunzTarPerm extractEntry benchmark/b01_fibonacci_server_threads.js
+178 silly gunzTarPerm extractEntry underscore-min.js
+179 silly gunzTarPerm extractEntry underscore.js
+180 silly gunzTarPerm extractEntry benchmark/b02_fibonacci_server_threads_pool.js
+181 silly gunzTarPerm extractEntry benchmark/b03_fibonacci_server_clustered.js
+182 silly gunzTarPerm extractEntry benchmark/b04_only_quick.js
+183 silly gunzTarPerm extractEntry benchmark/pi.js
+184 silly gunzTarPerm extractEntry benchmark/pi_precompiled.js
+185 silly gunzTarPerm extractEntry benchmark/doubles.c
+186 silly gunzTarPerm extractEntry benchmark/pi.c
+187 silly gunzTarPerm extractEntry benchmark/pi.rb
+188 silly gunzTarPerm extractEntry AUTHORS
+189 silly gunzTarPerm extractEntry examples/demo.js
+190 silly gunzTarPerm extractEntry examples/ex03_ping_pong.js
+191 silly gunzTarPerm extractEntry examples/quickIntro_multiThread.js
+192 silly gunzTarPerm extractEntry examples/ex04_main.js
+193 silly gunzTarPerm extractEntry examples/quickIntro_loop.js
+194 silly gunzTarPerm extractEntry examples/quickIntro_multiThreadEvented.js
+195 silly gunzTarPerm extractEntry examples/quickIntro_fiveThreads.js
+196 silly gunzTarPerm extractEntry examples/ex05_pool.js
+197 silly gunzTarPerm extractEntry examples/ex01_basic.js
+198 silly gunzTarPerm extractEntry examples/ex06_complex.js
+199 silly gunzTarPerm extractEntry examples/ex06_jason.js
+200 silly gunzTarPerm extractEntry examples/ex02_events.js
+201 silly gunzTarPerm extractEntry examples/quickIntro_evented_childThreadCode.js
+202 silly gunzTarPerm extractEntry examples/quickIntro_oneThread.js
+203 silly gunzTarPerm extractEntry examples/quickIntro_blocking.js
+204 silly gunzTarPerm extractEntry examples/ex04_worker.js
+205 silly gunzTarPerm extractEntry examples/quickIntro_oneThreadEvented.js
+206 silly gunzTarPerm extractEntry examples/ex06_jason.md
+207 silly gunzTarPerm extractEntry examples/ex04_worker.md
+208 silly gunzTarPerm extractEntry examples/ex04_main.md
+209 silly gunzTarPerm extractEntry examples/ex03_ping_pong.md
+210 silly gunzTarPerm extractEntry examples/ex02_events.md
+211 silly gunzTarPerm extractEntry examples/ex01_basic.md
+212 silly gunzTarPerm extractEntry examples/ex05_pool.md
+213 silly gunzTarPerm extractEntry wscript
+214 silly gunzTarPerm extractEntry src/createPool.js
+215 silly gunzTarPerm extractEntry src/events.js
+216 silly gunzTarPerm extractEntry src/load.js
+217 silly gunzTarPerm extractEntry src/thread_nextTick.js
+218 silly gunzTarPerm extractEntry src/createPool.js.c
+219 silly gunzTarPerm extractEntry src/events.js.c
+220 silly gunzTarPerm extractEntry src/load.js.c
+221 silly gunzTarPerm extractEntry src/queues_a_gogo.cc
+222 silly gunzTarPerm extractEntry src/thread_nextTick.js.c
+223 silly gunzTarPerm extractEntry src/threads_a_gogo.cc
+224 silly gunzTarPerm extractEntry test/ab.js
+225 silly gunzTarPerm extractEntry test/test11_multi_callbacks.js
+226 silly gunzTarPerm extractEntry test/test12_precompiled_vs_normal.js
+227 silly gunzTarPerm extractEntry test/test13_thread_nextTick_speed.js
+228 silly gunzTarPerm extractEntry test/test10_node_nextTick_speed.js
+229 silly gunzTarPerm extractEntry test/test15_emit_ping_pong.js
+230 silly gunzTarPerm extractEntry test/test16_syntax_error_in_the_thread.js
+231 silly gunzTarPerm extractEntry test/test17_pool_pi.js
+232 silly gunzTarPerm extractEntry test/test18_pool_any_as_fast_as_possible.js
+233 silly gunzTarPerm extractEntry test/test19_pool_emit_any_all.js
+234 silly gunzTarPerm extractEntry test/test09_throw_from_the_callback.js
+235 silly gunzTarPerm extractEntry test/test20_removeAllListeners.js
+236 silly gunzTarPerm extractEntry test/test08_sigkill_leaks.js
+237 silly gunzTarPerm extractEntry test/test21_emit_ping_pong_big_string.js
+238 silly gunzTarPerm extractEntry test/test07_sigkill.js
+239 silly gunzTarPerm extractEntry test/test22_create_destroy_loop.js
+240 silly gunzTarPerm extractEntry test/test06_throw_from_the_thread.js
+241 silly gunzTarPerm extractEntry test/test23_create_destroy_loop.js
+242 silly gunzTarPerm extractEntry test/test05_debugLeaksNoCallbacks.js
+243 silly gunzTarPerm extractEntry test/test24_puts.js
+244 silly gunzTarPerm extractEntry test/test04_gc_versus_not_gc.js
+245 silly gunzTarPerm extractEntry test/test25_delete_puts.js
+246 silly gunzTarPerm extractEntry test/test03_infiniteLoopFunction.js
+247 silly gunzTarPerm extractEntry test/test26_puts_with_many_args.js
+248 silly gunzTarPerm extractEntry test/test02_loop_as_fast_as_possible.js
+249 silly gunzTarPerm extractEntry test/test27_puts_event_loop.js
+250 silly gunzTarPerm extractEntry test/test01_loop_as_fast_as_possible.js
+251 silly gunzTarPerm extractEntry test/test28_puts_nextTick_loop.js
+252 silly gunzTarPerm extractEntry test/test00_run_once_and_destroy.js
+253 silly gunzTarPerm extractEntry test/test29_puts_callback_loop.js
+254 silly gunzTarPerm extractEntry test/test14_emit_once.js
+255 silly gunzTarPerm extractEntry deps/minifier/bin/minify
+256 silly gunzTarPerm extractEntry deps/minifier/src/minify.c
+257 silly gunzTarPerm extractEntry deps/minifier/src/test
+258 silly gunzTarPerm extractEntry deps/minifier/src/test.include.c
+259 silly gunzTarPerm extractEntry deps/minifier/src/test_minifier.c
+260 silly lockFile 13e248b9-cpubound-node-modules-underscore tar:///Users/wukaixing/GitHub/cpubound/node_modules/underscore
+261 silly lockFile 13e248b9-cpubound-node-modules-underscore tar:///Users/wukaixing/GitHub/cpubound/node_modules/underscore
+262 silly lockFile 772b4b80-npm-underscore-1-6-0-package-tgz tar:///Users/wukaixing/.npm/underscore/1.6.0/package.tgz
+263 silly lockFile 772b4b80-npm-underscore-1-6-0-package-tgz tar:///Users/wukaixing/.npm/underscore/1.6.0/package.tgz
+264 info preinstall underscore@1.6.0
+265 verbose readDependencies using package.json deps
+266 verbose readDependencies using package.json deps
+267 silly resolved []
+268 verbose about to build /Users/wukaixing/GitHub/cpubound/node_modules/underscore
+269 info build /Users/wukaixing/GitHub/cpubound/node_modules/underscore
+270 verbose linkStuff [ false,
+270 verbose linkStuff   false,
+270 verbose linkStuff   false,
+270 verbose linkStuff   '/Users/wukaixing/GitHub/cpubound/node_modules' ]
+271 info linkStuff underscore@1.6.0
+272 verbose linkBins underscore@1.6.0
+273 verbose linkMans underscore@1.6.0
+274 verbose rebuildBundles underscore@1.6.0
+275 info install underscore@1.6.0
+276 info postinstall underscore@1.6.0
+277 silly lockFile ea173f16-ound-node-modules-threads-a-gogo tar:///Users/wukaixing/GitHub/cpubound/node_modules/threads_a_gogo
+278 silly lockFile ea173f16-ound-node-modules-threads-a-gogo tar:///Users/wukaixing/GitHub/cpubound/node_modules/threads_a_gogo
+279 silly lockFile 73f42394-threads-a-gogo-0-1-5-package-tgz tar:///Users/wukaixing/.npm/threads_a_gogo/0.1.5/package.tgz
+280 silly lockFile 73f42394-threads-a-gogo-0-1-5-package-tgz tar:///Users/wukaixing/.npm/threads_a_gogo/0.1.5/package.tgz
+281 info preinstall threads_a_gogo@0.1.5
+282 verbose readDependencies using package.json deps
+283 verbose readDependencies using package.json deps
+284 silly resolved []
+285 verbose about to build /Users/wukaixing/GitHub/cpubound/node_modules/threads_a_gogo
+286 info build /Users/wukaixing/GitHub/cpubound/node_modules/threads_a_gogo
+287 verbose linkStuff [ false,
+287 verbose linkStuff   false,
+287 verbose linkStuff   false,
+287 verbose linkStuff   '/Users/wukaixing/GitHub/cpubound/node_modules' ]
+288 info linkStuff threads_a_gogo@0.1.5
+289 verbose linkBins threads_a_gogo@0.1.5
+290 verbose linkMans threads_a_gogo@0.1.5
+291 verbose rebuildBundles threads_a_gogo@0.1.5
+292 info install threads_a_gogo@0.1.5
+293 verbose unsafe-perm in lifecycle true
+294 info threads_a_gogo@0.1.5 Failed to exec install script
+295 info /Users/wukaixing/GitHub/cpubound/node_modules/threads_a_gogo unbuild
+296 info preuninstall threads_a_gogo@0.1.5
+297 info uninstall threads_a_gogo@0.1.5
+298 verbose true,/Users/wukaixing/GitHub/cpubound/node_modules,/Users/wukaixing/GitHub/cpubound/node_modules unbuild threads_a_gogo@0.1.5
+299 info postuninstall threads_a_gogo@0.1.5
+300 error threads_a_gogo@0.1.5 install: `node-waf configure install`
+300 error Exit status 127
+301 error Failed at the threads_a_gogo@0.1.5 install script.
+301 error This is most likely a problem with the threads_a_gogo package,
+301 error not with npm itself.
+301 error Tell the author that this fails on your system:
+301 error     node-waf configure install
+301 error You can get their info via:
+301 error     npm owner ls threads_a_gogo
+301 error There is likely additional logging output above.
+302 error System Darwin 13.1.0
+303 error command "/Users/wukaixing/nvm/v0.11.9/bin/node" "/Users/wukaixing/nvm/v0.11.9/bin/npm" "install"
+304 error cwd /Users/wukaixing/GitHub/cpubound
+305 error node -v v0.11.9
+306 error npm -v 1.3.15
+307 error code ELIFECYCLE
+308 verbose exit [ 1, true ]
